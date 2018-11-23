@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #3E3D32;
+	font-family: 'Poppins', sans-serif;
+}
+section{
+	background: url(../img/img.jpeg);
+	background-size: cover;
+	min-height: 100vh;
+	position: relative;
+}
+.container{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	overflow: hidden;
+}
+.form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: #E0E0E0;
+	padding: 25px 40px;
+	border-radius: 5px;
+}
+.form ul{
+	list-style: none;
+}
+.form ul li{
+	margin: 10px 0;
+}
+.text-center{
+	text-align: center;
+}
+.font-size{
+	font-size: 20px;
+}
+.logo{
+	font-size: 30px;
+	color: #329483;
+}
+
+.input-box{
+	color: #666;
+	width: 100%;
+	padding: 7px;
+	border: 0;
+	box-sizing: border-box;
+}
+.check{
+	margin-right: 50px;
+}
+.forget-pass{
+	color: #0B5182;
+	text-decoration: none;
+}
+.forget-pass:hover{
+	color: #329483;
+}
+.login{
+	width: 100%;
+	padding: 10px 20px;
+	background-color: #0B5182;
+	border: 0;
+	color: white;
+}
+.login:hover{
+	color: #329483;
+}
+.join-now{
+	margin-left: 5px;
+	color: #0B5182;
+	text-decoration: none;
+}
+.join-now:hover{
+	color: #329483;
+}
